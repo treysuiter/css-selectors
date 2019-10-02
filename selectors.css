@@ -24,10 +24,14 @@ a.disabled {
     color: red;
 }
 
-.parent h4 > div {
+.parent div > h4 + div {
     color: blue;
 }
 
-.parent + h4 {
+.parent div > h4 {
     background-color: red;
+}
+
+.parent div > h4 + div + h4 {
+    background-color: blue;
 }

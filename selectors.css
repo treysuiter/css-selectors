@@ -35,3 +35,17 @@ a.disabled {
 .parent div > h4 + div + h4 {
     background-color: blue;
 }
+
+.grandparent h4 {
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+.promo {
+    color: gold;
+    font-weight: bold;
+}
+
+input {
+    height: 25px;
+}
